@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(14, 27, 50);
+}
+
+.album:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.album {
+  background-color: rgb(38, 58, 93);
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.button {
+  width: fit-content;
+}
+
+.playing {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgb(38, 58, 93);
+}
+
+
+.top {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+.favourite {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+.home{
+  width: 45px;
+  height: 45px;
+  margin-left: 15px;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-container {
+  position: relative; 
+  width: 100%;
+    max-width: 500px;
+}
+
+.form-control {
+  width: 100%; 
+  padding: 10px 40px 10px 10px; 
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px; 
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 20px;
+  height: 20px;
+  pointer-events: none; 
+}
