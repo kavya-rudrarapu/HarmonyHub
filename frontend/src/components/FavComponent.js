@@ -39,6 +39,16 @@ const FavComponent = () => {
   return (
     <>
       <div className="container top">
+        <h1
+          style={{
+            color: "whitesmoke",
+            marginRight: "50%",
+            textWrap: "nowrap",
+            fontFamily: "cursive",
+          }}
+        >
+          Harmony Hub
+        </h1>
         <button
           onClick={handleFavClick}
           style={{ background: "none", border: "none" }}
